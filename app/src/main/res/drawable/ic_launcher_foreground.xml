@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left kinetic motion lines denoting translation speed -->
+    <path
+        android:fillColor="#3300F0FF"
+        android:pathData="M18,34 h18 l-6,10 h-18 z" />
+    <path
+        android:fillColor="#6600F0FF"
+        android:pathData="M12,48 h22 l-6,10 h-22 z" />
+    <path
+        android:fillColor="#9900F0FF"
+        android:pathData="M16,62 h18 l-6,10 h-18 z" />
+
+    <!-- Main camera lens body ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:pathData="M54,54 m-28,0 a28,28 0 1,1 56,0 a28,28 0 1,1 -56,0" />
+
+    <!-- Core glowing play/interp node inside the lens -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M48,42 L66,54 L48,66 Z" />
+
+    <!-- Additional outer focus indices -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,16 h2 v6 h-2 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,86 h2 v6 h-2 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,54 v2 h6 v-2 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M86,54 v2 h6 v-2 z" />
+</vector>
